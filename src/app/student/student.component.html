@@ -1,9 +1,6 @@
 <div>
-  Student: {{name}}
-  <div [hidden]="!isJedi">
-    Jedi Temple: Coruscant
-  </div>
-  <div [hidden]="isJedi">
-    Not a Jedi Yet...
+  Student: {{student.name}}
+  <div [hidden]="!student.isJedi">
+    Jedi Temple: {{student.temple}}
   </div>
 </div>
