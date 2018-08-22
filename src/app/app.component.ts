@@ -1,17 +1,16 @@
-import { Component } from '@angular/core';
-
-import {Student} from './student/student.model';
+import {Component, OnInit} from "@angular/core"
 
 @Component({
-  selector: 'jad-root',
-  templateUrl: './app.component.html'
+  selector: 'mt-app',
+  templateUrl: 'app.component.html'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
-  students: Student[] = [
-    {name: 'Luke', isJedi: true, temple: 'Coruscant'},
-    {name: 'Han', isJedi: false},
-    {name: 'Leia', isJedi: false}
-  ];
+  content = 'Welcome do Meat App!'
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 
 }

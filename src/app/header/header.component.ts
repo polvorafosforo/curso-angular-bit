@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'jad-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'mt-header',
+  templateUrl: './header.component.html'
 })
 export class HeaderComponent implements OnInit {
 
